@@ -14,7 +14,7 @@ public class CompareEx3 {
         // 변수선언 : 기본타입(ch1-VarByteEx1 참조)
         // 객체 타입: 대문자로 시작하면 객체타입
         String str1 = "abc"; 
-        String str2 = "abc"; //
+        String str2 = "abc"; 
         String str3 = new String("abc");
 
 
