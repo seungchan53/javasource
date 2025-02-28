@@ -23,16 +23,25 @@ public class ForEx2 {
         for (int i = 0; i < 10; i++) {
             System.out.print(i + "   ");
         }
-            for (int i = 10; i > 0; i--) {
+        for (int i = 10; i > 0; i--) {
+            System.out.print(i + "   ");
+        }
+
+        for (int i = 1; i < 11; i++) {
+            System.out.print(i + "   ");
+            if (i % 2 == 0) {
                 System.out.print(i + "   ");
             }
+        }
 
-            for (int i = 1; i < 11; i++) {
-                    System.out.print(i + "   ");
-                if (i % 2 == 0) {
-                    System.out.print(i + "   ");
-                }
-            }
-        
+        int i = 0; // for,문 바깥쪽에 초기화 선언 가능 코드 안에서 ; 입력
+        for (int j = 0, k = 1; i < args.length; i++) { // 초기화 선언은 여러개 선언 가능
+
+        }
+
+        // for (; ; ) {
+
+        // }
+
     }
 }

@@ -5,7 +5,7 @@ package loop;
 
 // 안녕하세요 10번 출력
 
-public class While2 {
+public class WhileEx3 {
     public static void main(String[] args) {
 
         // 반복문 중단: 강제 중단(break) or 조건이 false
@@ -24,42 +24,31 @@ public class While2 {
             System.out.print(i + "   ");
         }
 
+        for (int i = 10; i > 0; i--) {
+            System.out.print(i + "   ");
+        }
 
-           
-
-
-            for (int i = 10; i > 0; i--) {
+        for (int i = 1; i < 11; i++) {
+            System.out.print(i + "   ");
+            if (i % 2 == 0) {
                 System.out.print(i + "   ");
-            }
 
-            for (int i = 1; i < 11; i++) {
-                    System.out.print(i + "   ");
-                if (i % 2 == 0) {
-                    System.out.print(i + "   ");
-
-
-
-                    i = 1;
-                    while ( i<11 ) {
-                        if (i % 2 == 0) {
-                            System.out.println(i + "   ");
-                        }
-                        i++;
-                    }
-
-                    i = 2;
-                    while (i<11) {
+                i = 1;
+                while (i < 11) {
+                    if (i % 2 == 0) {
                         System.out.println(i + "   ");
-                        i += 2 ;
                     }
-
-
-
-
-
-
+                    i++;
                 }
+
+                i = 2;
+                while (i < 11) {
+                    System.out.println(i + "   ");
+                    i += 2;
+                }
+
             }
-        
+        }
+
     }
 }
