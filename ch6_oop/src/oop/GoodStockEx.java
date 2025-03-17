@@ -3,7 +3,7 @@ package ch6_oop.src.oop;
 public class GoodStockEx {
     public static void main(String[] args) {
         // new GoodStock() : default 생성자를 호출하면서 인스턴스 생성
-        GoodStock goodsStock = new GoodsStock();
+        GoodStock goodsStock = new GoodStock();
         // goodsStock.code = "p1013";
         // goodsStock.stockNum = 50;
         // GoodStock goodsStock = new GoodStock("p1013",50);

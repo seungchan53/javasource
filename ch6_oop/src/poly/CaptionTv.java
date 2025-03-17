@@ -1,0 +1,11 @@
+package ch6_oop.src.poly;
+
+public class CaptionTv extends Tv2 {
+    boolean caption;
+
+    void displayCaption(String text) {
+        if (caption) {
+            System.out.println(text);
+        }
+    }
+}
