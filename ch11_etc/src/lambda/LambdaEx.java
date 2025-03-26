@@ -25,7 +25,5 @@ public class LambdaEx {
 
         Lambda3 lambda3 = (a, b) -> a > b ? a : b;
         System.out.println("max " + lambda3.max(5, 3));
-
-        Supplier 
     }
 }
